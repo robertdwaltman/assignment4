@@ -1,0 +1,11 @@
+Start: Wed, Feb 4 2015 17:30:00 -0500
+End: Wed, Feb 4 2015 21:40:00 -0500
+Got some basic framework in, worked out a tester page. Beginning with data validation.
+
+Start: Thu, Feb 5 2015 09:30:00 -0500
+End: Wed, Feb 4 2015 17:20:00 -0500
+Completed the functionality for multtable.php, feature-complete with functioning error checking, validated HTML5 output.
+
+Start: Thu, Feb 5 19:30:00 -0500
+End: Thu, Feb 5 20:13:00 -0500
+Completed loopback.php.
