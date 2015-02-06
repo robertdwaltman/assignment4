@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form Filler Test</title>
+</head>
+<body>
+<form action="loopback.php">
+Enter some text: <br>
+<input type="text" name="textentry"> <br> <br>
+Select an option: <br>
+<input type="radio" name="fruit" value="orange">Orange
+<input type="radio" name="fruit" value="apple">Apple
+<br><br>
+<select name="faction">
+	<option value="terran">Terran</option>
+	<option value="protoss">Protoss</option>
+	<option value="zerg">Zerg</option>
+</select>
+<input type="submit" value="Submit">
+</form>
+<form action = "loopback.php">
+	<input type="submit" value="Empty">
+</form>
+<br><br>
+<form action="loopback.php" method="POST">
+Enter some text: <br>
+<input type="text" name="textentry"> <br> <br>
+Select an option: <br>
+<input type="radio" name="fruit" value="orange">Orange
+<input type="radio" name="fruit" value="apple">Apple
+<br><br>
+<select name="faction">
+	<option value="terran">Terran</option>
+	<option value="protoss">Protoss</option>
+	<option value="zerg">Zerg</option>
+</select>
+
+<input type="submit" value="Submit">
+</form>
+
+<form action = "loopback.php" method="POST">
+	<input type="submit" value="Empty">
+</form>
